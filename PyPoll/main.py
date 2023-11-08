@@ -1,4 +1,4 @@
 # PyPoll mainfile
 
-def pypoll():
-    test
+# def pypoll():
+#     test
