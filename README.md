@@ -1,4 +1,4 @@
-# python-challenge
+# Python-Challenge
 # Alan Lawrence - Challenge 3 Homework!
 
 ## List of Scripts:
