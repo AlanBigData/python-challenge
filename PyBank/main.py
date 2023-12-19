@@ -17,7 +17,7 @@ df["Monthly Change"] = df["Profit/Losses"].diff()
 
 # Greatest increase with dat and formatted
 greatest_increase_date = df.loc[df["Monthly Change"].idxmax(), "Date"]
-greatest_increase = "{:,}".format(int(df["Profit/Losses"].max()))
+greatest_increase = "{:,}".format(int(df["Profit/Losses"].idxmax()))
 
 # Greates decrease with date and formatted
 greatest_decrease_date = df.loc[df["Monthly Change"].idxmin(), "Date"]
